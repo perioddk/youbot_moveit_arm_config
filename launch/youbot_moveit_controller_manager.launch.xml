@@ -5,5 +5,5 @@
   <param name="moveit_controller_manager" value="$(arg moveit_controller_manager)"/>
 
 <!-- Load controller_list -->
-  <rosparam file="$(find youbot_ed_moveit_generated)/config/controllers.yaml"/>
+  <rosparam file="$(find youbot_moveit_arm_config)/config/controllers.yaml"/>
 </launch>
